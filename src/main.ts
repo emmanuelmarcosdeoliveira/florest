@@ -1,3 +1,5 @@
+import logo from "./assets/forest.svg";
+
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <!-- Conteúdo do dia e Clima -->
     <div class="container flex justify-center md:justify-start mt-4">
@@ -10,4 +12,36 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
         </div>
       </div>
     </div>
+    <!-- Menu  -->
+    <header class="container flex gap-8 items-center justify-between mt-8 py-8">
+      <a href="./"> <img src=${logo} alt="Logo Forest" /></a>
+      <nav>
+        <ul class="flex flex-wrap gap-8 text-white text-xl">
+          <li>
+            <a
+              class="hover:underline hover:underline-offset-8"
+              href="#acomodacoes"
+              >Acomodações</a
+            >
+          </li>
+          <li>
+            <a class="hover:underline hover:underline-offset-8" href="#eventos"
+              >Eventos</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:underline hover:underline-offset-8"
+              href="#experiencias"
+              >Experiências</a
+            >
+          </li>
+          <li>
+            <a class="hover:underline hover:underline-offset-8" href="#contato"
+              >Contanto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 `;
