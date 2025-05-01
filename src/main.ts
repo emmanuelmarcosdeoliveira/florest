@@ -5,7 +5,11 @@ import logo from "./assets/forest.svg";
 import iconMorning from "./assets/manha.svg";
 import iconNight from "./assets/noite.svg";
 import observacao_noturna from "./assets/observacao-noturna.jpg";
-import wildbeaast from "./assets/parceiros/wildbeast.svg";
+import caravan from "./assets/parceiros/caravan.svg";
+import dogs from "./assets/parceiros/dogs.svg";
+import lescone from "./assets/parceiros/lescone.svg";
+import surfbot from "./assets/parceiros/surfbot.svg";
+import wildBeast from "./assets/parceiros/wildbeast.svg";
 import vida_selvagem from "./assets/vida-selvagem.jpg";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
@@ -68,7 +72,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
       <div >
         <p class="mb-2 uppercase">Recomendado por </p>
         <p class="flex gap-4 items-center">
-          <img class="w-28" src=${wildbeaast} alt="logo Wildbeast">
+          <img class="w-28" src=${wildBeast} alt="logo Wildbeast">
           <span>|</span>
           Revista Nacional
         </p>
@@ -441,5 +445,29 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
           Enviar Email
         </button>
       </form>
+    </section>
+
+    <!-- Partners -->
+    <section class="container pb-12 sm:pb-16">
+      <ul
+        class="*:*:max-h-8 *:py-4 divide-verde-900 flex flex-col items-center max-sm:divide-y-2 sm:border-b-1 sm:border-t-1 sm:border-verde-900 sm:flex-row sm:gap-8 sm:py-8"
+      >
+        <li class="flex flex-1 justify-center">
+          <img src="${caravan}" alt="Logo Caravan" />
+        </li>
+         <li class="flex flex-1 justify-center">
+          <img src="${dogs}" alt="Logo Caravan" />
+        </li>
+          <li class="flex flex-1 justify-center">
+          <img src="${wildBeast}" alt="Logo Caravan" />
+        </li>
+         <li class="flex flex-1 justify-center">
+          <img src="${lescone}" alt="Logo Caravan" />
+        </li>
+         <li class="flex flex-1 justify-center">
+          <img src="${surfbot}" alt="Logo Caravan" />
+        </li>
+      
+      </ul>
     </section>
 `;
