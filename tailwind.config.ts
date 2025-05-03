@@ -35,6 +35,10 @@ export default {
         ["slide-in"]: "slideIn 0.4s ease-in-out forwards",
         ["fade-in"]: "fadeIn 0.4s ease-in-out forwards",
       },
+      fontFamily: {
+        sans: ["DM Sans", "system-ui", "sans-serif"],
+        serif: ["DM Serif Text", "Georgia", "serif"],
+      },
     },
   },
   plugins: [

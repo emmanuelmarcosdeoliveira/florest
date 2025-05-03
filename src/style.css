@@ -9,6 +9,8 @@
   --color-verde-800: #16281f;
   --color-verde-900: #0f1c15;
   --color-verde-950: #030504;
+  --font-family-sans: "DM Sans";
+  --font-family-serif: "DM Serif Text";
 }
 @layer components {
   .neon {
