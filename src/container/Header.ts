@@ -26,26 +26,26 @@ export function renderHeader(containerId: string) {
        class="hidden items-center lg:block max-lg:fixed max-lg:inset-0 max-lg:w-full z-40">
       <div class="backdrop-blur-md bg-verde-950/40 fixed inset-0 lg:hidden"></div>
         <ul class="lg:flex lg:flex-wrap lg:gap-8 lg:text-xl max-lg:absolute max-lg:divide-white/10 max-lg:divide-y-2 max-lg:p-8 max-lg:w-full max:lg:z-50 text-2xl text-white">
-          <li>
+          <li class="animate-1 animate-slide-in opacity-0">
             <a
               class="block lg:hover:underline lg:hover:underline-offset-8 lg:p-0 lg:py-2 max-lg:hover:bg-white/10 p-4"
               href="#acomodacoes"
               >Acomodações</a
             >
           </li>
-          <li>
+          <li class="animate-2 animate-slide-in opacity-0">
             <a class="block lg:hover:underline lg:hover:underline-offset-8 lg:p-0 lg:py-2 max-lg:hover:bg-white/10 p-4" href="#eventos"
               >Eventos</a
             >
           </li>
-          <li>
+          <li class="animate-3 animate-slide-in opacity-0">
             <a
               class="block lg:hover:underline lg:hover:underline-offset-8 lg:p-0 lg:py-2 max-lg:hover:bg-white/10 p-4"
               href="#experiencias"
               >Experiências</a
             >
           </li>
-          <li>
+          <li class="animate-4 animate-slide-in opacity-0">
             <a class="block lg:hover:underline lg:hover:underline-offset-8 lg:p-0 lg:py-2 max-lg:hover:bg-white/10 p-4" href="#contato"
               >Contanto</a
             >
