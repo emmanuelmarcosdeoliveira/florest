@@ -11,7 +11,7 @@ export function renderAccommodations(containerId: string) {
   accommodationsElement.innerHTML = `
     <section
       id="acomodacoes"
-      class="container gap-8 grid lg:grid-cols-[2fr_3fr] mb-12 pt-16 sm:mb-16"
+      class="container gap-8 grid lg:grid-cols-[2fr_3fr] mb-12 pt-16 radial-gradient sm:mb-16"
     >
       <div
         class="bg-[url('/src/assets/padrao.svg')] bg-contain bg-left-bottom bg-no-repeat content-end"
@@ -23,23 +23,23 @@ export function renderAccommodations(containerId: string) {
           class="*:flex *:gap-4 *:items-center gap-4 grid sm:text-xl text-gray-200"
         >
           <li>
-            <span class="bg-verde-400 h-0.5 inline-block w-6"> </span
+            <span class="h-0.5 inline-block neon w-6"> </span
             >Experimente a Natureza de Perto
           </li>
           <li>
-            <span class="bg-verde-400 h-0.5 inline-block w-6"></span>
+            <span class="h-0.5 inline-block neon w-6"></span>
             Conecte-se com a Natureza
           </li>
           <li>
-            <span class="bg-verde-400 h-0.5 inline-block w-6"></span>
+            <span class="h-0.5 inline-block neon w-6"></span>
             Desconecte-se do digital
           </li>
           <li>
-            <span class="bg-verde-400 h-0.5 inline-block w-6"></span>
+            <span class="h-0.5 inline-block neon w-6"></span>
             Observe a vida selvagem
           </li>
           <li>
-            <span class="bg-verde-400 h-0.5 inline-block w-6"></span>
+            <span class="h-0.5 inline-block neon w-6"></span>
             Escolha a sua cabine perfeita
           </li>
         </ul>

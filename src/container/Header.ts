@@ -9,7 +9,7 @@ export function renderHeader(containerId: string) {
   headerElement.innerHTML = `
    <div class="container flex justify-center md:justify-start mt-4">
       <div class="bg-verde-900 inline-flex items-center rounded-md">
-        <span class="-left-1 bg-verde-200 block relative rounded size-2"></span>
+        <span class="-left-1 block neon relative size-2"></span>
         <div class="divide-verde-800 divide-x-2 flex gap-2 text-verde-300">
           <div id="day" class="capitalize px-4 py-2">segunda</div>
           <div id="temperature" class="px-4 py-2">25°</div>
@@ -51,7 +51,7 @@ export function renderHeader(containerId: string) {
           </li>
         </ul>
       </nav>
-      <button id="mobile-button" class="bg-verde-400 flex gap-3 items-center lg:hidden px-4 py-2 rounded-full text-verde-900">Menu
+      <button id="mobile-button" class="0 btn cursor-pointer flex gap-3 items-center lg:hidden py-1 rounded-full text-verde-900">Menu
       <span class="*:bg-verde-800 *:h-0.5 *:rounded-mb flex flex-col h-3 justify-between w-4">
         <span></span>
         <span></span>

@@ -16,14 +16,14 @@ export function renderForm(contanierId: string) {
             </p>
             <div class="gap-4 grid">
               <div>
-                <span class="bg-verde-400 h-0.5 inline-block w-6"></span>
+                <span class="h-0.5 inline-block neon w-6"></span>
                 <h2 class="font-serif mb-2 text-2xl text-verde-300">Base</h2>
                 <p class="text-gray-300">
                   Rua da Mata, 123, Floresta Nacional - SP
                 </p>
               </div>
               <div>
-                <span class="bg-verde-400 h-0.5 inline-block w-6"></span>
+                <span class="h-0.5 inline-block neon w-6"></span>
                 <h2 class="font-serif mb-2 text-2xl text-verde-300">Email</h2>
                 <p class="text-gray-300">
                   <a href="mailto:oliveira.frontend@gmail.com">
@@ -32,7 +32,7 @@ export function renderForm(contanierId: string) {
                 </p>
               </div>
               <div>
-                <span class="bg-verde-400 h-0.5 inline-block w-6"></span>
+                <span class="h-0.5 inline-block neon w-6"></span>
                 <h2 class="font-serif mb-2 text-2xl text-verde-300">Telefone</h2>
                 <p class="text-gray-300">(11)- 99999-9999</p>
               </div>
@@ -46,7 +46,7 @@ export function renderForm(contanierId: string) {
               <label htmlFor="nome" class="text-white"> Nome </label>
               <input
                 placeholder="Nome"
-                class="bg-verde-800 border-2 border-verde-800 focus:border-verde-900 focus:outline-none focus:ring-2 focus:ring-verde-400 p-2 placeholder:text-verde-700 rounded-md text-white"
+                class="input"
                 type="text"
                 id="nome"
               />
@@ -56,7 +56,7 @@ export function renderForm(contanierId: string) {
                 <label htmlFor="email" class="text-white"> Email </label>
                 <input
                   placeholder="email"
-                  class="bg-verde-800 border-2 border-verde-800 focus:border-verde-900 focus:outline-none focus:ring-2 focus:ring-verde-400 p-2 placeholder:text-verde-700 rounded-md text-white"
+                  class="input"
                   type="email"
                   name="email"
                   id="email"
@@ -68,22 +68,23 @@ export function renderForm(contanierId: string) {
                   placeholder="(11)99999-9999"
                   id="telefone"
                   name="telefone"
-                  class="bg-verde-800 border-2 border-verde-800 focus:border-verde-900 focus:outline-none focus:ring-2 focus:ring-verde-400 p-2 placeholder:text-verde-700 rounded-md text-white"
+                  class="input"
                   type="text"
                 />
               </div>
             </div>
             <div class="gap-1 grid">
               <label htmlFor="mensagem" class="text-white"> Mensagem </label>
-              <textarea
+              <textarea 
+              
                 placeholder="Como podemos te ajudar?"
                 id="mensagem"
-                class="bg-verde-800 border-2 border-verde-800 focus:border-verde-900 focus:outline-none focus:ring-2 focus:ring-verde-400 p-2 placeholder:text-verde-700 resize-none rounded-md text-white"
+                class="input resize-none"
                 rows="{5}"
               ></textarea>
             </div>
             <button
-              class="bg-verde-400 cursor-pointer inline-block place-self-start px-4 py-2 rounded-full text-verde-900"
+              class="btn cursor-pointer place-self-start"
             >
               Enviar Email
             </button>

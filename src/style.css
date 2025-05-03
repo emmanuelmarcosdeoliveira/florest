@@ -10,3 +10,31 @@
   --color-verde-900: #0f1c15;
   --color-verde-950: #030504;
 }
+@layer components {
+  .neon {
+    @apply border-verde-200 from-verde-200 to-verde-400 rounded-full border bg-gradient-to-b;
+    box-shadow:
+      0 1px 4px 1px rgba(172, 239, 117, 0.25),
+      inset 0px -1px 2px var(--color-verde-200);
+  }
+  .btn {
+    @apply border-verde-200 from-verde-200 to-verde-400 text-verde-900 rounded-full border bg-gradient-to-b px-5 py-2 transition hover:contrast-200;
+    box-shadow:
+      0 1px 4px 1px rgba(172, 239, 117, 0.25),
+      inset 0px -1px 2px var(--color-verde-200);
+  }
+
+  .input {
+    @apply bg-verde-800 border-verde-800 focus:border-verde-900 focus:ring-verde-400 placeholder:text-verde-700 rounded-md border-2 p-2 text-white focus:ring-2 focus:outline-none;
+  }
+}
+
+@layer utilities {
+  .radial-gradient {
+    background-image: radial-gradient(
+      50% 100% at 50% 0%,
+      var(--color-verde-700) 0%,
+      var(--color-verde-800) 100%
+    );
+  }
+}

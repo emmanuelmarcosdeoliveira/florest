@@ -12,7 +12,9 @@ export function renderIntroduction(containerId: string) {
       <video  id="video" width="1280" muted  playsinline loop  height="720" class="-z-10 absolute animate-fade-in inset-0 object-cover size-full" src="${videoChuva}"></video>
       <div class="bg-verde-950/60 flex flex-col gap-2 items-start mb-8 p-4 rounded-xl sm:bg-verde-950 sm:flex-row sm:gap-8 sm:inline-flex sm:items-center sm:pl-4 sm:pr-1 sm:py-1 sm:rounded-full">
         Vagas para Dezembro abertas
-        <a class="bg-verde-400 inline-block px-4 py-2 rounded-full text-verde-900"   href="">Reserve Hoje</a>
+        <a class="btn gap-2 inline-flex items-center text-verde-900"   href="#contato">Reserve Hoje
+        <img src="./src/assets/seta.svg" alt=""  />
+        </a>
 
 
      </div>

@@ -30,7 +30,7 @@ export function renderEvents(containerId: string) {
               e as estrelas visíveis
             </p>
             <a
-              class="bg-verde-400 inline-block justify-self-start px-4 py-2 rounded-full self-end text-verde-900"
+              class="btn flex justify-self-start self-end"
               href="#contato"
               >Reservar 23/03
             </a>
@@ -48,7 +48,7 @@ export function renderEvents(containerId: string) {
               iluminado pelas estrelas.
             </p>
             <a
-              class="bg-verde-400 inline-block justify-self-start px-4 py-2 rounded-full self-end text-verde-900"
+             class="btn flex justify-self-start self-end"
               href="#contato"
               >Reservar 15/04
             </a>
@@ -65,7 +65,7 @@ export function renderEvents(containerId: string) {
               Melhores períodos para observação da Chuva de Meteoros, o céu estará iluminado pelas estrelas.
             </p>
             <a
-              class="bg-verde-400 inline-block justify-self-start px-4 py-2 rounded-full self-end text-verde-900"
+             class="btn flex justify-self-start self-end"
               href="#contato"
               >Reservar 18/08
             </a>

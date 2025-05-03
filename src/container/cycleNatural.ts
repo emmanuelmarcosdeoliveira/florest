@@ -28,7 +28,7 @@ export function renderCycleNatural(containerId: string) {
           class="bg-verde-900 flex-1 gap-4 grid p-6 rounded-xl sm:hover:-translate-y-1 sm:p-8 transition-transform"
         >
           <div
-            class="bg-verde-400 flex items-center justify-center rounded-full size-10"
+            class="flex items-center justify-center neon size-10"
           >
             <img src="${iconMorning}" alt="" />
           </div>
@@ -42,7 +42,7 @@ export function renderCycleNatural(containerId: string) {
           class="bg-verde-900 flex-1 gap-4 grid p-6 rounded-xl sm:hover:translate-y-10 sm:p-8 sm:translate-y-12 transition-transform"
         >
           <div
-            class="bg-verde-400 flex items-center justify-center rounded-full size-10"
+            class="flex items-center justify-center neon size-10"
           >
             <img src="${iconDay}" alt="" />
           </div>
@@ -57,7 +57,7 @@ export function renderCycleNatural(containerId: string) {
           class="bg-verde-900 flex-1 gap-4 grid p-6 rounded-xl sm:hover:-translate-y-1 sm:p-8 transition-transform"
         >
           <div
-            class="bg-verde-400 flex items-center justify-center rounded-full size-10"
+            class="flex items-center justify-center neon size-10"
           >
             <img src="${iconNight}" alt="" />
           </div>
