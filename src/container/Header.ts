@@ -1,5 +1,4 @@
 import logo from "../assets/forest.svg";
-
 export function renderHeader(containerId: string) {
   const headerElement = document.querySelector<HTMLDivElement>(
     `#${containerId}`,
@@ -63,6 +62,7 @@ export function renderHeader(containerId: string) {
     </div>
 
   `;
+
   const mobileButton = document.getElementById("mobile-button");
   const mobileMenu = document.getElementById("mobile-menu");
   mobileButton?.addEventListener("click", () => {

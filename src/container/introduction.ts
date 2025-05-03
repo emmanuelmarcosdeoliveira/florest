@@ -1,6 +1,5 @@
-import floresta from "../assets/floresta.jpg";
 import wildBeast from "../assets/parceiros/wildbeast.svg";
-
+import videoChuva from "../assets/video/video_chuva.mp4";
 export function renderIntroduction(containerId: string) {
   const introductionElement = document.querySelector<HTMLDivElement>(
     `#${containerId}`,
@@ -10,8 +9,8 @@ export function renderIntroduction(containerId: string) {
   introductionElement.innerHTML = `
 <section class="container">
   <div class="bg-gradient-to-t from-verde-950/80 max-sm:pt-12 max-sm:px-4 overflow-hidden pb-8 pt-64 px-8 relative rounded-2xl text-white">
-      <img class="-z-10 absolute inset-0 object-cover size-full" src=${floresta} alt="Imagem de floresta">
-      <div class="bg-verde-950/60 flex flex-col gap-2 items-start mb-8 p-4 rounded-xl sm:bg-verde-950 sm:flex-row sm:gap-8 sm:inline-flex sm:items-center sm:py-1 sm:rounded-full sn:pl-4 sn:pr-1">
+      <video  id="video" width="1280" muted  playsinline loop  height="720" class="-z-10 absolute animate-fade-in inset-0 object-cover size-full" src="${videoChuva}"></video>
+      <div class="bg-verde-950/60 flex flex-col gap-2 items-start mb-8 p-4 rounded-xl sm:bg-verde-950 sm:flex-row sm:gap-8 sm:inline-flex sm:items-center sm:pl-4 sm:pr-1 sm:py-1 sm:rounded-full">
         Vagas para Dezembro abertas
         <a class="bg-verde-400 inline-block px-4 py-2 rounded-full text-verde-900"   href="">Reserve Hoje</a>
 
@@ -31,14 +30,6 @@ export function renderIntroduction(containerId: string) {
     </div>
       </div>
 </section>
-  
-  
-  
-  
-  
-  
-  
-  
   
   `;
 }
