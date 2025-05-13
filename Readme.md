@@ -85,7 +85,7 @@ Requisitos necessários para rodar o projeto:<br>
 
 ### Prerequisites
 
-`Bun.js` ou `Node.js `VSCode` `Git`
+`Bun.js` ou `Node.js` `VSCode` `Git`
 
 > [!IMPORTANT]
 >
