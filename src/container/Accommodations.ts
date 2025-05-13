@@ -9,7 +9,7 @@ export function renderAccommodations(containerId: string) {
   if (!accommodationsElement) return;
 
   accommodationsElement.innerHTML = `
-    <section
+    <div
       id="acomodacoes"
       class="container gap-8 grid lg:grid-cols-[2fr_3fr] mb-12 pt-16 radial-gradient sm:mb-16"
     >
@@ -79,7 +79,7 @@ export function renderAccommodations(containerId: string) {
           >
         </div>
       </div>
-    </section>
+    </div>
     
   
   

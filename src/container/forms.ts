@@ -4,7 +4,7 @@ export function renderForm(contanierId: string) {
   );
   if (!formElement) return;
   formElement.innerHTML = `
-             <section
+             <div
           id="contato"
           class="asm:pt-16 container gap-8 grid lg:grid-cols-2 pb-12 pt-12 sm:pb-16"
         >
@@ -89,7 +89,7 @@ export function renderForm(contanierId: string) {
               Enviar Email
             </button>
           </form>
-        </section>
+        </div>
     
   
   

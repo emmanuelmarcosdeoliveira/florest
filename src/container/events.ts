@@ -6,7 +6,7 @@ export function renderEvents(containerId: string) {
 
   eventsElement.innerHTML = `
 
-    <section class="bg-verde-900 pt-12 py-12 sm:pb-16 sm:py-16" id="eventos">
+    <div class="bg-verde-900 pt-12 py-12 sm:pb-16 sm:py-16" id="eventos">
       <div class="container">
         <p
           class="mb-4 mx-auto text-center text-sm text-verde-200 tracking-widest uppercase"
@@ -72,7 +72,7 @@ export function renderEvents(containerId: string) {
           </div>
         </div>
       </div>
- </section>
+ </div>
  
   
   

@@ -8,7 +8,7 @@ export function renderFooter(containerId: string) {
   if (!footerElement) return;
 
   footerElement.innerHTML = `
-    <footer class="container pb-8 sm:pb-12">
+    <div class="container pb-8 sm:pb-12">
       <div class="bg-verde-900 dm:p-12 mb-8 p-6 rounded-2xl">
         <div>
           <div class="gap-4 grid lg:grid-cols-3 md:grid-cols-2 sm:gap-12">
@@ -54,6 +54,6 @@ export function renderFooter(containerId: string) {
           <li><a href="#">Facebook</a></li>
         </ul>
       </div>
-    </footer>
+    </div>
   `;
 }

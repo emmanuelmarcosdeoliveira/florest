@@ -10,7 +10,7 @@ export function renderCycleNatural(containerId: string) {
   cycleNaturalElement.innerHTML = `
     
       <!-- Natural Cycle -->
-    <section
+    <div
       class="bg-[url('./assets/padrao.svg')] bg-center bg-contain bg-no-repeat container pb-12 sm:pb-16 sm:py-16"
     >
       <p
@@ -68,7 +68,7 @@ export function renderCycleNatural(containerId: string) {
           <span class="text-verde-300">19:00 - 21:00</span>
         </div>
       </div>
-    </section>
+    </div>
 
 
 

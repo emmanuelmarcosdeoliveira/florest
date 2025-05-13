@@ -10,7 +10,7 @@ export function renderExperiences(containerId: string) {
 
   experiencesElement.innerHTML = `
   
-    <section
+    <div
       id="experiencias"
       class="container gap-8 grid pb-12 sm:grid-cols-2 sm:pt-16"
     >
@@ -88,7 +88,7 @@ export function renderExperiences(containerId: string) {
           </div>
         </div>
       </div>
-    </section> 
+    </div> 
   
   
   

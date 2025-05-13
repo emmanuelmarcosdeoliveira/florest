@@ -14,7 +14,7 @@ export function renderPartners(containerId: string) {
 
   partnersElement.innerHTML = `
     
-      <section class="container pb-12 sm:pb-16">
+      <div class="container pb-12 sm:pb-16">
       <ul
         class="*:*:max-h-8 *:py-4 divide-verde-900 flex flex-col items-center max-sm:divide-y-2 sm:border-b-1 sm:border-t-1 sm:border-verde-900 sm:flex-row sm:gap-8 sm:py-8"
       >
@@ -35,6 +35,6 @@ export function renderPartners(containerId: string) {
         </li>
       
       </ul>
-    </section>
+    </div>
     `;
 }
