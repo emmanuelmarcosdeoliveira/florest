@@ -175,6 +175,10 @@ bun dev
 <p align="center">Video de Demostração</p>
 <br>
 
+
+https://github.com/user-attachments/assets/cfa85850-17c1-4c03-ad41-f22dbfbf09f1
+
+
 <br>
  <div align="center">
 Acesse a versão on-line Projeto clicando no Link Abaixo
