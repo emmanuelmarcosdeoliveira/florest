@@ -1,5 +1,5 @@
 import wildBeast from "../assets/parceiros/wildbeast.svg";
-import videoChuva from "../assets/video/video_chuva.mp4";
+import videoChuva from "/video_chuva.mp4";
 export function renderIntroduction(containerId: string) {
   const introductionElement = document.querySelector<HTMLDivElement>(
     `#${containerId}`,

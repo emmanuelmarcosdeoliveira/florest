@@ -29,7 +29,4 @@ const date = new Date();
 day!.innerText = date.toLocaleDateString("pt-BR", {
   weekday: "long",
 });
-video!.src =
-  random < 25
-    ? `./src/assets/video/video_chuva.mp4`
-    : `./src/assets/video/video_sol.mp4`;
+video!.src = random < 25 ? `/video_chuva.mp4` : `video_sol.mp4`;
