@@ -91,7 +91,7 @@ Requisitos necessários para rodar o projeto:<br>
 >
 > - Run time [Node.js](https://nodejs.org/pt) com a versão 20 ou superior
 > - Run Time [bun.js](https://bun.sh/) com a versão 1.2 ou superior.<br>
-> - Um editor de códigos onde eu recomendo o [VCode](https://code.visualstudio.com/)<br>
+> - Um editor de códigos que eu recomendo o [VCode](https://code.visualstudio.com/)<br>
 > - E o [git](https://git-scm.com/downloads) uma aplicação de versionamento de código.
 
 <!-- > - Extensão do VSCode [**Live Server**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) -->
